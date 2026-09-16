@@ -1,0 +1,4 @@
+# Keep local editor and operating-system files out of the learning log.
+.vscode/
+Thumbs.db
+Desktop.ini
