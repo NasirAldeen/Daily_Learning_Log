@@ -2,4 +2,8 @@
 
 This repository records short, truthful summaries of work completed during AI and electrical-engineering study sessions.
 
-Run `Start-Work.cmd`, enter a real one-line work summary when prompted, and the script will commit it locally. After the GitHub remote is configured, it will also push the commit.
+Starting Work Mode records the first genuine session of the day in
+`Daily-Work-Log.md`, commits it, and pushes it to GitHub in the background.
+Additional Work Mode launches on the same date do not create duplicate entries
+or empty commits. Check `C:\Users\User\Desktop\Workflow\GitHub-Update.log` for
+the pushed commit ID or the exact failure reason.
